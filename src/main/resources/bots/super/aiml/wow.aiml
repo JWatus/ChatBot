@@ -16,7 +16,7 @@
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
 <category><pattern>WHO IS ANDUIN WRYNN</pattern>
-<template>Andiun is High King of the Alliance.</template>
+<template>Anduin is High King of the Alliance.</template>
 </category>
 <category><pattern>WHO IS SYLVANAS WINDRUNNER</pattern>
 <template>She is Banshee Queen of the Forsaken and Warchief of the Horde.</template>
