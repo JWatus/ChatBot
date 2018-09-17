@@ -22,7 +22,7 @@ public class Chatbot {
             String textLine = "";
 
             while(true) {
-                System.out.print("Human : ");
+                System.out.print("User : ");
                 textLine = IOUtils.readInputTextLine();
                 if ((textLine == null) || (textLine.length() < 1))
                     textLine = MagicStrings.null_input;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- File: help.aiml -->
+<!-- File: wow.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
 <!-- Last modified: września 17, 2018 -->
 <!--  -->
@@ -15,7 +15,16 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
-<category><pattern>HELP VOICE</pattern>
-<template>You can buy a male voice from Svox. Installing this app will give CallMom (as well as all other apps) a male voice. See <a href="https://play.google.com/store/apps/details?id=com.svox.classic.langpack.eng_usa_male&amp;feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5zdm94LmNsYXNzaWMubGFuZ3BhY2suZW5nX3VzYV9tYWxlIl0.">Svox Classic Text-to-Speech Engine</a>.</template>
+<category><pattern>WHO IS ANDUIN WRYNN</pattern>
+<template>Andiun is High King of the Alliance.</template>
+</category>
+<category><pattern>WHO IS SYLVANAS WINDRUNNER</pattern>
+<template>She is Banshee Queen of the Forsaken and Warchief of the Horde.</template>
+</category>
+<category><pattern>WHAT HORDIES SAY</pattern>
+<template>For the Horde!</template>
+</category>
+<category><pattern>WHAT ALLYS SAY</pattern>
+<template>For the Alliance!</template>
 </category>
 </aiml>
