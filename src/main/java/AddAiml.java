@@ -5,7 +5,7 @@ import org.alicebot.ab.MagicBooleans;
 public class AddAiml {
 
     private static final boolean TRACE_MODE = false;
-    static String botName = "super";
+    static String botName = "javson";
 
     public static void main(String[] args) {
         try {
@@ -13,7 +13,7 @@ public class AddAiml {
             String resourcesPath = getResourcesPath();
             System.out.println(resourcesPath);
             MagicBooleans.trace_mode = TRACE_MODE;
-            Bot bot = new Bot("super", resourcesPath);
+            Bot bot = new Bot("javson", resourcesPath);
 
             bot.writeAIMLFiles();
 

@@ -8,7 +8,7 @@ import org.alicebot.ab.utils.IOUtils;
 
 public class Chatbot {
     private static final boolean TRACE_MODE = false;
-    static String botName = "super";
+    static String botName = "javson";
 
     public static void main(String[] args) {
         try {
@@ -16,7 +16,7 @@ public class Chatbot {
             String resourcesPath = getResourcesPath();
             System.out.println(resourcesPath);
             MagicBooleans.trace_mode = TRACE_MODE;
-            Bot bot = new Bot("super", resourcesPath);
+            Bot bot = new Bot("javson", resourcesPath);
             Chat chatSession = new Chat(bot);
             bot.brain.nodeStats();
             String textLine = "";
